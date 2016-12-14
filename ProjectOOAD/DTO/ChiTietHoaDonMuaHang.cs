@@ -52,8 +52,6 @@ namespace DTO
         {
 
         }
-
-        public ChiTietHoaDonMuaHang(){}
         public ChiTietHoaDonMuaHang(string _maCTHDMH, string _maHDMH, string _maHangHoa, int _soLuong, double _donGia, double _thanhTien) 
         {
             this.maCTHDMH = _maCTHDMH;

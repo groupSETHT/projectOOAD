@@ -1,0 +1,9 @@
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\bin\Debug\ProjectOOAD.exe
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\bin\Debug\ProjectOOAD.pdb
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.csprojResolveAssemblyReference.cache
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.Form1.resources
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.Properties.Resources.resources
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.csproj.GenerateResource.Cache
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.exe.licenses
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.exe
+C:\Users\DinhThien\Documents\Visual Studio 2013\Projects\DXApplication1\ProjectOOAD\obj\Debug\ProjectOOAD.pdb

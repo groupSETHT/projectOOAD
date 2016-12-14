@@ -17,5 +17,11 @@ namespace Presentation_Layer
         {
             InitializeComponent();
         }
+
+        private void panelControl9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
     }
 }

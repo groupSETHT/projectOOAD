@@ -10,12 +10,24 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
 namespace Presentation_Layer
-{
-    public partial class fKhachHang : DevExpress.XtraEditors.XtraForm
+{    public partial class fKhachHang : DevExpress.XtraEditors.XtraForm
+
     {
         public fKhachHang()
         {
             InitializeComponent();
         }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+    
     }
 }

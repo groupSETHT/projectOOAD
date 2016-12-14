@@ -17,5 +17,35 @@ namespace Presentation_Layer
         {
             InitializeComponent();
         }
+
+        private void labelControl5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelControl6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textEdit4_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -14,9 +14,7 @@ namespace DAL
         {
             try
             {
-                //conn.ConnectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\SQL_OOAD.mdf;Integrated Security=True";
-                conn.ConnectionString = @"Data Source=DINHTHIEN;Initial Catalog=SQL_OOAD;Integrated Security=True";
-                
+                conn.ConnectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\SQL_OOAD.mdf;Integrated Security=True";
             }
             catch (Exception)
             {

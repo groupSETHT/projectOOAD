@@ -13,19 +13,7 @@ namespace DTO
 {
     public class MayTinh
     {
-        public  string maMayTinh
-        {
-            get;
-            set;
-        }
-
-        public  string tenMayTinh
-        {
-            get;
-            set;
-        }
-
-        public  string maHang
+        public  string maHangHoa
         {
             get;
             set;
@@ -102,21 +90,13 @@ namespace DTO
             get;
             set;
         }
-
-        public  string maNhaCungCap
-        {
-            get;
-            set;
-        }
         public MayTinh()
         {
             
         }
-        public MayTinh(string _maMayTinh, string _tenMayTinh, string _maHang, string _cpu, string _hdh, string _maVGA, string _maRAM, string _diaCung, string _kichThuocManHinh, string _camUng, string _webcam, string _chatLieuVo, string _maPin, string _congGiaoTiep, string _dvd, string _maNhaCungCap)
+        public MayTinh(string _maHangHoa, string _tenMayTinh, string _maHang, string _cpu, string _hdh, string _maVGA, string _maRAM, string _diaCung, string _kichThuocManHinh, string _camUng, string _webcam, string _chatLieuVo, string _maPin, string _congGiaoTiep, string _dvd, string _maNhaCungCap)
         {
-            this.maMayTinh = _maMayTinh;
-            this.tenMayTinh = _tenMayTinh;
-            this.maHang = _maHang;
+            this.maHangHoa = _maHangHoa;
             this.cpu = _cpu;
             this.hdh = _hdh;
             this.maVGA = _maVGA;
@@ -129,7 +109,6 @@ namespace DTO
             this.maPin = _maPin;
             this.congGiaoTiep = _congGiaoTiep;
             this.dvd = _dvd;
-            this.maNhaCungCap = _maNhaCungCap;
         }
     }
 }

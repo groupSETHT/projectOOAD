@@ -18,12 +18,47 @@ namespace DTO
             get;
             set;
         }
-
+        public string tenHangHoa
+        {
+            get;
+            set;
+        }
         public string maLoaiHangHoa
         {
             get;
             set;
         }
+        public string baoHanh
+        {
+            get;
+            set;
+        }
+        public string maHang
+        {
+            get;
+            set;
+        }
+
+        public string xuatXu
+        {
+            get;
+            set;
+        }
+
+        public string namSanXuat
+        {
+            get;
+            set;
+        }
+
+        public string maNhaCungCap
+        {
+            get;
+            set;
+        }
+
+
+
 
         public int soLuong
         {
@@ -31,11 +66,6 @@ namespace DTO
             set;
         }
 
-        public string baoHanh
-        {
-            get;
-            set;
-        }
 
         public double giaMua
         {
@@ -53,12 +83,17 @@ namespace DTO
 
         }
 
-        public HangHoa(string _maHangHoa, string _maLoaiHangHoa, int _soLuong, string _baoHanh, double _giaMua, double _giaBan)
+        public HangHoa(string _maHangHoa, string _tenHangHoa, string _maLoaiHangHoa, string _baoHanh, string _maNhaCungCap, string _maHang, string _xuatXu, string _namSanXuat, int _soLuong, double _giaMua, double _giaBan)
         {
             this.maHangHoa = _maHangHoa;
+            this.tenHangHoa = _tenHangHoa;
             this.maLoaiHangHoa = _maLoaiHangHoa;
-            this.soLuong = _soLuong;
             this.baoHanh = _baoHanh;
+            this.maNhaCungCap = _maNhaCungCap;
+            this.maHang = _maHang;
+            this.xuatXu = _xuatXu;
+            this.namSanXuat = _namSanXuat;
+            this.soLuong = _soLuong;
             this.giaMua = _giaMua;
             this.giaBan = _giaBan;
         }

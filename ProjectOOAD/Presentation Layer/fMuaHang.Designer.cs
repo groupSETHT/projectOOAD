@@ -32,7 +32,7 @@
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvDSNhaCungCap = new System.Windows.Forms.DataGridView();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
@@ -48,40 +48,29 @@
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.lbDonGia = new DevExpress.XtraEditors.LabelControl();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.txtSoLuong = new DevExpress.XtraEditors.TextEdit();
             this.btnGhi = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gridHDMH = new DevExpress.XtraGrid.GridControl();
-            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.btnLuu = new DevExpress.XtraEditors.SimpleButton();
             this.btnHuy = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridDSHangHoa = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.cbbLoaiHangHoa = new System.Windows.Forms.ComboBox();
+            this.dgvDSHangHoa = new System.Windows.Forms.DataGridView();
+            this.dgvHDMH = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhaCungCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -94,18 +83,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtSoLuong.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridHDMH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridDSHangHoa)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.tableLayoutPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHDMH)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -150,7 +136,7 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.dataGridView1);
+            this.groupControl1.Controls.Add(this.dgvDSNhaCungCap);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(3, 3);
             this.groupControl1.Name = "groupControl1";
@@ -158,22 +144,22 @@
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Danh Sách Nhà Cung Cấp";
             // 
-            // dataGridView1
+            // dgvDSNhaCungCap
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(2, 20);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(172, 571);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvDSNhaCungCap.AllowUserToAddRows = false;
+            this.dgvDSNhaCungCap.AllowUserToDeleteRows = false;
+            this.dgvDSNhaCungCap.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDSNhaCungCap.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvDSNhaCungCap.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDSNhaCungCap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSNhaCungCap.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSNhaCungCap.EnableHeadersVisualStyles = false;
+            this.dgvDSNhaCungCap.Location = new System.Drawing.Point(2, 20);
+            this.dgvDSNhaCungCap.Name = "dgvDSNhaCungCap";
+            this.dgvDSNhaCungCap.ReadOnly = true;
+            this.dgvDSNhaCungCap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDSNhaCungCap.Size = new System.Drawing.Size(172, 571);
+            this.dgvDSNhaCungCap.TabIndex = 1;
             // 
             // panelControl1
             // 
@@ -333,7 +319,7 @@
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.7F));
             this.tableLayoutPanel10.Controls.Add(this.labelControl14, 1, 0);
             this.tableLayoutPanel10.Controls.Add(this.labelControl15, 1, 1);
-            this.tableLayoutPanel10.Controls.Add(this.labelControl16, 3, 1);
+            this.tableLayoutPanel10.Controls.Add(this.lbDonGia, 3, 1);
             this.tableLayoutPanel10.Controls.Add(this.labelControl17, 4, 1);
             this.tableLayoutPanel10.Controls.Add(this.txtSoLuong, 3, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -364,14 +350,14 @@
             this.labelControl15.TabIndex = 0;
             this.labelControl15.Text = "Đơn Giá: ";
             // 
-            // labelControl16
+            // lbDonGia
             // 
-            this.labelControl16.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.labelControl16.Location = new System.Drawing.Point(80, 49);
-            this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(40, 13);
-            this.labelControl16.TabIndex = 0;
-            this.labelControl16.Text = "500.000";
+            this.lbDonGia.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbDonGia.Location = new System.Drawing.Point(80, 49);
+            this.lbDonGia.Name = "lbDonGia";
+            this.lbDonGia.Size = new System.Drawing.Size(40, 13);
+            this.lbDonGia.TabIndex = 0;
+            this.lbDonGia.Text = "500.000";
             // 
             // labelControl17
             // 
@@ -401,76 +387,13 @@
             // 
             // groupControl3
             // 
-            this.groupControl3.Controls.Add(this.gridHDMH);
+            this.groupControl3.Controls.Add(this.dgvHDMH);
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl3.Location = new System.Drawing.Point(3, 160);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(306, 383);
             this.groupControl3.TabIndex = 8;
             this.groupControl3.Text = "Hóa Đơn Mua Hàng";
-            // 
-            // gridHDMH
-            // 
-            this.gridHDMH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridHDMH.Location = new System.Drawing.Point(2, 20);
-            this.gridHDMH.MainView = this.gridView3;
-            this.gridHDMH.Name = "gridHDMH";
-            this.gridHDMH.Size = new System.Drawing.Size(302, 361);
-            this.gridHDMH.TabIndex = 0;
-            this.gridHDMH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView3});
-            // 
-            // gridView3
-            // 
-            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5});
-            this.gridView3.GridControl = this.gridHDMH;
-            this.gridView3.Name = "gridView3";
-            this.gridView3.OptionsView.ShowGroupPanel = false;
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.Caption = "STT";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
-            this.gridColumn1.Width = 34;
-            // 
-            // gridColumn2
-            // 
-            this.gridColumn2.Caption = "Tên Hàng";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
-            this.gridColumn2.Width = 62;
-            // 
-            // gridColumn3
-            // 
-            this.gridColumn3.Caption = "Số Lượng";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
-            this.gridColumn3.Width = 62;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.Caption = "Đơn Giá";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            this.gridColumn4.Width = 62;
-            // 
-            // gridColumn5
-            // 
-            this.gridColumn5.Caption = "Thành Tiền";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            this.gridColumn5.Width = 66;
             // 
             // tableLayoutPanel5
             // 
@@ -534,64 +457,13 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.gridDSHangHoa);
+            this.groupControl2.Controls.Add(this.dgvDSHangHoa);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl2.Location = new System.Drawing.Point(3, 47);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(255, 549);
             this.groupControl2.TabIndex = 6;
             this.groupControl2.Text = "Danh Sách Hàng Hóa";
-            // 
-            // gridDSHangHoa
-            // 
-            this.gridDSHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridDSHangHoa.Location = new System.Drawing.Point(2, 20);
-            this.gridDSHangHoa.MainView = this.gridView2;
-            this.gridDSHangHoa.Name = "gridDSHangHoa";
-            this.gridDSHangHoa.Size = new System.Drawing.Size(251, 527);
-            this.gridDSHangHoa.TabIndex = 0;
-            this.gridDSHangHoa.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2,
-            this.gridView1});
-            // 
-            // gridView2
-            // 
-            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn6,
-            this.gridColumn7,
-            this.gridColumn8});
-            this.gridView2.GridControl = this.gridDSHangHoa;
-            this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsView.ShowGroupPanel = false;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.Caption = "STT";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 0;
-            this.gridColumn6.Width = 40;
-            // 
-            // gridColumn7
-            // 
-            this.gridColumn7.Caption = "Tên Hàng";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 1;
-            this.gridColumn7.Width = 123;
-            // 
-            // gridColumn8
-            // 
-            this.gridColumn8.Caption = "Số Lượng";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 2;
-            this.gridColumn8.Width = 72;
-            // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.gridDSHangHoa;
-            this.gridView1.Name = "gridView1";
             // 
             // tableLayoutPanel6
             // 
@@ -629,6 +501,40 @@
             this.cbbLoaiHangHoa.Size = new System.Drawing.Size(121, 21);
             this.cbbLoaiHangHoa.TabIndex = 1;
             // 
+            // dgvDSHangHoa
+            // 
+            this.dgvDSHangHoa.AllowUserToAddRows = false;
+            this.dgvDSHangHoa.AllowUserToDeleteRows = false;
+            this.dgvDSHangHoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDSHangHoa.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvDSHangHoa.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDSHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSHangHoa.EnableHeadersVisualStyles = false;
+            this.dgvDSHangHoa.Location = new System.Drawing.Point(2, 20);
+            this.dgvDSHangHoa.Name = "dgvDSHangHoa";
+            this.dgvDSHangHoa.ReadOnly = true;
+            this.dgvDSHangHoa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDSHangHoa.Size = new System.Drawing.Size(251, 527);
+            this.dgvDSHangHoa.TabIndex = 2;
+            // 
+            // dgvHDMH
+            // 
+            this.dgvHDMH.AllowUserToAddRows = false;
+            this.dgvHDMH.AllowUserToDeleteRows = false;
+            this.dgvHDMH.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvHDMH.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvHDMH.BackgroundColor = System.Drawing.Color.White;
+            this.dgvHDMH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHDMH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvHDMH.EnableHeadersVisualStyles = false;
+            this.dgvHDMH.Location = new System.Drawing.Point(2, 20);
+            this.dgvHDMH.Name = "dgvHDMH";
+            this.dgvHDMH.ReadOnly = true;
+            this.dgvHDMH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvHDMH.Size = new System.Drawing.Size(302, 361);
+            this.dgvHDMH.TabIndex = 2;
+            // 
             // fMuaHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -645,7 +551,7 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhaCungCap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
@@ -660,19 +566,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtSoLuong.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridHDMH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.tableLayoutPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridDSHangHoa)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHDMH)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -686,17 +589,12 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private DevExpress.XtraEditors.GroupControl groupControl4;
         private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraGrid.GridControl gridHDMH;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private DevExpress.XtraEditors.SimpleButton btnLuu;
         private DevExpress.XtraEditors.SimpleButton btnHuy;
         private DevExpress.XtraEditors.PanelControl panelControl3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridDSHangHoa;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
@@ -711,21 +609,15 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private DevExpress.XtraEditors.LabelControl labelControl14;
         private DevExpress.XtraEditors.LabelControl labelControl15;
-        private DevExpress.XtraEditors.LabelControl labelControl16;
+        private DevExpress.XtraEditors.LabelControl lbDonGia;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.TextEdit txtSoLuong;
         private DevExpress.XtraEditors.SimpleButton btnGhi;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private System.Windows.Forms.ComboBox cbbLoaiHangHoa;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvDSNhaCungCap;
+        private System.Windows.Forms.DataGridView dgvHDMH;
+        private System.Windows.Forms.DataGridView dgvDSHangHoa;
 
 
 

@@ -17,7 +17,9 @@ namespace Presentation_Layer
         public partial class fMuaHang : DevExpress.XtraEditors.XtraForm
         {
             NhaCungCapBUS objNhaCungCapBUS = new NhaCungCapBUS();
+            HangHoaBUS objHangHoaBUS = new HangHoaBUS();
             DataTable dtNhaCungCap;
+            DataTable dtHangHoa;
             public fMuaHang()
             {
                 InitializeComponent();
@@ -30,12 +32,12 @@ namespace Presentation_Layer
                 try
                 {
                     dtNhaCungCap = objNhaCungCapBUS.GetAllNhaCungCap();
-                    dataGridView1.DataSource = dtNhaCungCap;
-                    dataGridView1.RowHeadersVisible = false;
-                    dataGridView1.Columns["TenNhaCungCap"].HeaderText = "Nhà Cung Cấp";
-                    dataGridView1.Columns["MaNhaCungCap"].Visible = false;
-                    dataGridView1.Columns["SDT"].Visible = false;
-                    dataGridView1.Columns["DiaChi"].Visible = false;
+                    dgvDSNhaCungCap.DataSource = dtNhaCungCap;
+                    dgvDSNhaCungCap.RowHeadersVisible = false;
+                    dgvDSNhaCungCap.Columns["TenNhaCungCap"].HeaderText = "Nhà Cung Cấp";
+                    dgvDSNhaCungCap.Columns["MaNhaCungCap"].Visible = false;
+                    dgvDSNhaCungCap.Columns["SDT"].Visible = false;
+                    dgvDSNhaCungCap.Columns["DiaChi"].Visible = false;
 
                 }
                 catch

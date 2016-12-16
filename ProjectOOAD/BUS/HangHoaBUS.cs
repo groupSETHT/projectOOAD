@@ -11,12 +11,12 @@ using DAL;
 
 namespace BUS
 {
-    public class NhaCungCapBUS
+    public class HangHoaBUS
     {
-        NhaCungCapDAL objNhaCungCapDAL = new NhaCungCapDAL();
-        public DataTable GetAllNhaCungCap()
+        HangHoaDAL objHangHoaDAL = new HangHoaDAL();
+        public DataTable GetByNhaCungCap(string maNCC)
         {
-            return objNhaCungCapDAL.GetAllNhaCungCap();
+            return objHangHoaDAL.GetByNhaCungCap(maNCC);
         }
     }
 }

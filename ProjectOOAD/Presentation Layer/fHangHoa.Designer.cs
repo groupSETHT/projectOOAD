@@ -30,7 +30,6 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.dgvDSHangHoa = new System.Windows.Forms.DataGridView();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.btnXoaKhachHang = new DevExpress.XtraEditors.SimpleButton();
             this.txtSearch = new System.Windows.Forms.TextBox();
@@ -39,24 +38,25 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.dgvDSNhomHangHoa = new System.Windows.Forms.DataGridView();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.dgvDSHangHoa = new System.Windows.Forms.DataGridView();
+            this.dgvDSNhomHangHoa = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhomHangHoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhomHangHoa)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -86,16 +86,6 @@
             this.groupControl2.Size = new System.Drawing.Size(858, 513);
             this.groupControl2.TabIndex = 11;
             this.groupControl2.Text = "Danh Sách Hàng Hóa";
-            // 
-            // dgvDSHangHoa
-            // 
-            this.dgvDSHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDSHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSHangHoa.Location = new System.Drawing.Point(2, 51);
-            this.dgvDSHangHoa.Name = "dgvDSHangHoa";
-            this.dgvDSHangHoa.Size = new System.Drawing.Size(854, 460);
-            this.dgvDSHangHoa.TabIndex = 12;
-            this.dgvDSHangHoa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSHangHoa_CellContentClick);
             // 
             // panelControl1
             // 
@@ -177,15 +167,6 @@
             this.groupControl1.TabIndex = 12;
             this.groupControl1.Text = "Danh Sách Nhóm Hàng Hóa";
             // 
-            // dgvDSNhomHangHoa
-            // 
-            this.dgvDSNhomHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDSNhomHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSNhomHangHoa.Location = new System.Drawing.Point(2, 51);
-            this.dgvDSNhomHangHoa.Name = "dgvDSNhomHangHoa";
-            this.dgvDSNhomHangHoa.Size = new System.Drawing.Size(189, 418);
-            this.dgvDSNhomHangHoa.TabIndex = 15;
-            // 
             // panelControl2
             // 
             this.panelControl2.Controls.Add(this.simpleButton1);
@@ -230,6 +211,24 @@
             this.simpleButton3.TabIndex = 8;
             this.simpleButton3.Text = "Sửa";
             // 
+            // dgvDSHangHoa
+            // 
+            this.dgvDSHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSHangHoa.Location = new System.Drawing.Point(2, 51);
+            this.dgvDSHangHoa.Name = "dgvDSHangHoa";
+            this.dgvDSHangHoa.Size = new System.Drawing.Size(854, 460);
+            this.dgvDSHangHoa.TabIndex = 12;
+            // 
+            // dgvDSNhomHangHoa
+            // 
+            this.dgvDSNhomHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSNhomHangHoa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSNhomHangHoa.Location = new System.Drawing.Point(2, 51);
+            this.dgvDSNhomHangHoa.Name = "dgvDSNhomHangHoa";
+            this.dgvDSNhomHangHoa.Size = new System.Drawing.Size(189, 418);
+            this.dgvDSNhomHangHoa.TabIndex = 15;
+            // 
             // fHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,17 +241,17 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhomHangHoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSHangHoa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSNhomHangHoa)).EndInit();
             this.ResumeLayout(false);
 
         }

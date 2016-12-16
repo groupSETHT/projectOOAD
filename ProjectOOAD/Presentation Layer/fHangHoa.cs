@@ -52,11 +52,6 @@ namespace Presentation_Layer
             }
         }
 
-        private void dgvDSHangHoa_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
 
     }
 }

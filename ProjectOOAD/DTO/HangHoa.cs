@@ -28,7 +28,7 @@ namespace DTO
             get;
             set;
         }
-        public string baoHanh
+        public int baoHanh
         {
             get;
             set;
@@ -45,7 +45,7 @@ namespace DTO
             set;
         }
 
-        public string namSanXuat
+        public int namSanXuat
         {
             get;
             set;
@@ -83,7 +83,7 @@ namespace DTO
 
         }
 
-        public HangHoa(string _maHangHoa, string _tenHangHoa, string _maLoaiHangHoa, string _baoHanh, string _maNhaCungCap, string _maHang, string _xuatXu, string _namSanXuat, int _soLuong, double _giaMua, double _giaBan)
+        public HangHoa(string _maHangHoa, string _tenHangHoa, string _maLoaiHangHoa, int _baoHanh, string _maNhaCungCap, string _maHang, string _xuatXu, int _namSanXuat, int _soLuong, double _giaMua, double _giaBan)
         {
             this.maHangHoa = _maHangHoa;
             this.tenHangHoa = _tenHangHoa;
